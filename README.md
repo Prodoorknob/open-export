@@ -1,9 +1,9 @@
 # open-export
 
-[![PyPI](https://img.shields.io/pypi/v/open-export)](https://pypi.org/project/open-export/)
-[![Python](https://img.shields.io/pypi/pyversions/open-export)](https://pypi.org/project/open-export/)
-[![License](https://img.shields.io/pypi/l/open-export)](https://github.com/Prodoorknob/open-export/blob/main/LICENSE)
-[![GitHub](https://img.shields.io/github/stars/Prodoorknob/open-export)](https://github.com/Prodoorknob/open-export)
+[![PyPI](https://img.shields.io/pypi/v/open-export?v=2)](https://pypi.org/project/open-export/)
+[![Python](https://img.shields.io/pypi/pyversions/open-export?v=2)](https://pypi.org/project/open-export/)
+[![License](https://img.shields.io/pypi/l/open-export?v=2)](https://github.com/Prodoorknob/open-export/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/github/stars/Prodoorknob/open-export?v=2)](https://github.com/Prodoorknob/open-export)
 
 Download and archive all your ChatGPT conversations as JSON and Markdown files.
 
