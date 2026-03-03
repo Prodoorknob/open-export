@@ -6,6 +6,7 @@ build-backend = "hatchling.build"
 name = "open-export"
 version = "0.1.0"
 description = "Archive and export your AI chat conversations as JSON and Markdown."
+license = {text = "MIT"}
 requires-python = ">=3.10"
 dependencies = [
     "playwright>=1.40.0",
