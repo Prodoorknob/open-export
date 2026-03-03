@@ -77,6 +77,16 @@ my_chats/
 
 The access token is used only during the session and cleared from memory on exit. No credentials are stored on disk.
 
+## Security
+
+This tool uses the Chrome DevTools Protocol (CDP) to connect to your browser. Here's what you should know:
+
+- **Why CDP?** ChatGPT has no official API for exporting conversation history. CDP lets the tool make authenticated requests using your existing browser session without ever handling your username or password.
+- **The `--remote-debugging-port` flag** opens a local debugging port on your machine. Only processes running on your computer can access it. Close the browser when you're done exporting.
+- **No network calls** are made to any server other than `chatgpt.com`. The tool writes files locally and does not transmit your data anywhere.
+- **Fully open source.** Every line of code is in this repository. Review it yourself: the entire tool is ~400 lines across 4 Python files.
+- **Access tokens are ephemeral.** The token is fetched from ChatGPT's own session endpoint, used for the download, and cleared from memory on exit. It is never written to disk or logged.
+
 ## Development
 
 ```bash

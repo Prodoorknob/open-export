@@ -4,8 +4,9 @@ build-backend = "hatchling.build"
 
 [project]
 name = "open-export"
-version = "0.1.0"
+version = "0.1.2"
 description = "Archive and export your AI chat conversations as JSON and Markdown."
+readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"
 dependencies = [
@@ -13,6 +14,11 @@ dependencies = [
     "click>=8.0",
     "rich>=13.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Prodoorknob/open-export"
+Repository = "https://github.com/Prodoorknob/open-export"
+Issues = "https://github.com/Prodoorknob/open-export/issues"
 
 [project.optional-dependencies]
 dev = [
@@ -23,7 +29,11 @@ dev = [
 [project.scripts]
 open-export = "open_export.cli:main"
 
+[tool.hatch.build.targets.sdist]
+core-metadata-version = "2.3"
+
 [tool.hatch.build.targets.wheel]
+core-metadata-version = "2.3"
 packages = ["src/open_export"]
 
 [tool.pytest.ini_options]
