@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "open-export"
-version = "0.1.3"
+version = "0.1.4"
 description = "Archive and export your AI chat conversations as JSON and Markdown."
 readme = "README.md"
 license = {text = "MIT"}

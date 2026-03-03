@@ -1,5 +1,10 @@
 # open-export
 
+[![PyPI](https://img.shields.io/pypi/v/open-export)](https://pypi.org/project/open-export/)
+[![Python](https://img.shields.io/pypi/pyversions/open-export)](https://pypi.org/project/open-export/)
+[![License](https://img.shields.io/pypi/l/open-export)](https://github.com/Prodoorknob/open-export/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/github/stars/Prodoorknob/open-export)](https://github.com/Prodoorknob/open-export)
+
 Download and archive all your ChatGPT conversations as JSON and Markdown files.
 
 ---
@@ -16,7 +21,7 @@ Download and archive all your ChatGPT conversations as JSON and Markdown files.
 > 1. Only run this tool on a machine you trust
 > 2. Do not run untrusted software while port 9222 is open
 > 3. **Close your browser completely as soon as the export finishes** -- this kills the debugging port
-> 4. Review the source code yourself: the entire tool is ~400 lines across 4 Python files in this repository
+> 4. Review the source code yourself: the entire tool is ~400 lines across 4 Python files — [view source on GitHub](https://github.com/Prodoorknob/open-export)
 
 ---
 
